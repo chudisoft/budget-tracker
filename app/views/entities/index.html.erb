@@ -7,7 +7,7 @@
     <span class='text-bold'><%= number_to_currency(@group.entities.sum(:amount), unit: "$") %></span>
 
   </div>
-  <div class="p-3 pt-0 mt-0 pb-5">
+  <div class="p-3 pt-0 mt-0 pb-5 mb-5">
     <div class="row gap-2 justify-content-center">
       <% @entities.each do |entity| %>
         <div class="col-md-12 card p-0 text-secondary">

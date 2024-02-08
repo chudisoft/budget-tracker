@@ -39,21 +39,6 @@
                   <% end %>
                 </ul>
               </li>
-              <%
-=begin%>
- <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Entity
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
-                  <li><%= link_to 'Entities', entities_path, class: "dropdown-item" %></li>
-                  <% if user_signed_in? %> <!-- Check if the user is signed in -->
-                    <li><%= link_to 'New Entity', new_entity_path, class: "dropdown-item" %></li>
-                  <% end %>
-                </ul>
-              </li> 
-<%
-=end%>
               <% if current_user.present? %> <!-- Check if the user is present (logged in) -->
                 <li class="nav-item">
                  <li class="nav-item"><%= button_to 'Logout', destroy_user_session_path, method: :delete, class: "nav-link logout--btn" %></li>
@@ -69,11 +54,6 @@
     </header>
     <div class=''>
       <p class="notice m-0 p-0"><%= notice %></p>
-      <%
-=begin%>
- <%= render 'shared/header' %>  
-<%
-=end%>
       <%= yield %>
     </div>
   </body>
