@@ -22,9 +22,9 @@ default: &default
 
 development:
   <<: *default
-  database: budget_tracker_development
+  database: budget_tracker_dev
   username: postgres
-  password: 12345
+  password: 1234
   host: localhost
   port: 5432
 
@@ -48,7 +48,7 @@ test:
   <<: *default
   database: budget_tracker_test
   username: postgres
-  password: 12345
+  password: 1234
   host: localhost
   port: 5432
 

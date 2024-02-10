@@ -5,6 +5,7 @@ class EntitiesController < ApplicationController
   before_action :authenticate_user!
   before_action :set_entity, only: %i[edit update destroy]
   before_action :set_group
+  before_action :set_groups
 
   def index
     # @entities = Entity.where(author_id: current_user.id)
@@ -60,6 +61,10 @@ class EntitiesController < ApplicationController
 
   def set_group
     @group = Group.find(params[:group_id])
+  end
+
+  def set_groups
+    @groups = Group.where(user_id: current_user.id)
   end
 
   def entity_params

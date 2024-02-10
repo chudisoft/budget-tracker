@@ -131,7 +131,7 @@ bundle exec rspec
 
 This project is deployed at:
 ```
-https://budget-manager1.onrender.com/
+https://budget-tracker-rv3z.onrender.com/
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -141,7 +141,7 @@ https://budget-manager1.onrender.com/
 
 This project is presented at:
 ```
-https://drive.google.com/file/d/1V8ybN1ztHb2e9PIVLubO7Ry4Y_xjNL7I/view?usp=sharing
+https://www.loom.com/share/8b8f8f263fd046399adbc5df94eaec35
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
