@@ -1,2 +1,6 @@
 **Read Me**
-![image](https://github.com/chudisoft/budget-tracker/assets/119929069/3847794a-a05d-43c6-a3b7-3450bd743f99)
+
+
+
+![image](https://github.com/chudisoft/budget-tracker/assets/119929069/2670072f-6715-4652-9afc-84ab6630d8cf)
+
