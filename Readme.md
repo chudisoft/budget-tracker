@@ -1,6 +1,11 @@
+
+
+![image](https://github.com/chudisoft/budget-tracker/assets/119929069/2670072f-6715-4652-9afc-84ab6630d8cf)
+
+
 <a name="readme-top"></a>
 <div align="center">
-  <h3><b>Budget_Tracker</b></h3>
+  <h3><b>Budget Tracker</b></h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -29,13 +34,13 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Budget_Tracker] <a name="about-project"></a>
+# 📖 [Budget Tracker] <a name="about-project"></a>
 
 > This project was created as part of Microverse Ruby on Rails capstone project.
 It gives the student an opportunity to showcase his talent with ruby, rails, and RSpec.
 It also allows the student to showcase what they can do to the future employee.
 
-**[Budget_Tracker]** 
+**[Budget Tracker]** 
 This Ruby on Rails capstone project is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -223,3 +228,4 @@ And also to (<a href="https://www.behance.net/gregoirevella">Gregoire Vella on B
 This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
